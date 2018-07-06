@@ -5,7 +5,12 @@
  * @param {number}    [position=0]
  */
 function callArg(mockFn, position) {
-  _callCallback('callArg', mockFn, position, this);
+  _callCallback({
+    utilName: 'callArg',
+    mockFn,
+    position,
+    context: this
+  });
 }
 
 /**
