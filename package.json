@@ -6,12 +6,14 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "^5.0.1",
+    "husky": "^0.14.3",
     "jest": "^23.3.0",
     "sinon": "^6.1.2"
   },
   "scripts": {
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "precommit": "npm test; npm run lint"
   },
   "repository": {
     "type": "git",
