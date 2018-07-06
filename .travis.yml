@@ -9,3 +9,7 @@ script:
 cache:
   directories:
     - "node_modules"
+deploy:
+  provider: npm
+  email: $NPM_EMAIL
+  api_key: $NPM_API_KEY

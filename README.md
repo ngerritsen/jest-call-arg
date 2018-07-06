@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ngerritsen/jest-call-arg.svg?branch=master)](https://travis-ci.org/ngerritsen/jest-call-arg)
+
 # Jest call arg
 
 Jest call arg is a set of utility functions to call callbacks passed to mocked functions. This is handy for testing code that deals with mocked functions that take callbacks. It is partly inspired by sinon's callArg fucntionality.
