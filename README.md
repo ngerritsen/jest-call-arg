@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ngerritsen/jest-call-arg.svg?branch=master)](https://travis-ci.org/ngerritsen/jest-call-arg)
+[![Pipeline Status](https://gitlab.com/ngerritsen/jest-call-arg/badges/master/pipeline.svg)](https://gitlab.com/ngerritsen/jest-call-arg/-/commits/master)
 
 # Jest call arg
 
