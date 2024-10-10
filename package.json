@@ -1,7 +1,7 @@
 {
   "name": "jest-call-arg",
-  "version": "1.0.1",
-  "description": "Utilitiy functions for calling callbacks on mocked functions with jest.",
+  "version": "1.0.2",
+  "description": "Utility functions for calling callbacks on mocked functions with jest.",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -13,11 +13,12 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
-    "precommit": "npm test; npm run lint"
+    "precommit": "npm test; npm run lint",
+    "prepublishOnly": "npm test; npm run lint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/ngerritsen/jest-call-arg.git"
+    "url": "git+https://github.com/ngerritsen/jest-call-arg.git"
   },
   "keywords": [
     "jest",
@@ -28,7 +29,7 @@
   "author": "Niels Gerritsen",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/ngerritsen/jest-call-arg/issues"
+    "url": "https://github.com/ngerritsen/jest-call-arg/issues"
   },
-  "homepage": "https://gitlab.com/ngerritsen/jest-call-arg#readme"
+  "homepage": "https://github.com/ngerritsen/jest-call-arg#readme"
 }
